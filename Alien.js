@@ -6,7 +6,7 @@ class Alien {
     }
     draw() {
         imageMode(CENTER);
-        image(this.image, this.x, this.y, 50, 50);
+        image(this.image, this.x, this.y, 40, 40);
         imageMode(CORNER);
     }
     

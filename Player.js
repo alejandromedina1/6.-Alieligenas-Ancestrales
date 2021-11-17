@@ -9,4 +9,10 @@ class Player {
         image(this.image, this.x, this.y, 50, 50);
         imageMode(CORNER);
     }
+    getX() {
+        return this.x;
+    }
+    setX(px) {
+        this.x = px;
+    }
 }
